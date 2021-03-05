@@ -217,6 +217,14 @@ a:hover {
         "gallery"
         "footer";
     }
+     .image {
+      width: 350px;
+      height: auto;
+    }
+    .intro {
+      width: 350px;
+      margin: auto;
+    }
 }
 
 
