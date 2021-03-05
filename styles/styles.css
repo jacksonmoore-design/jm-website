@@ -185,20 +185,21 @@ menu li a:after {
       "gallery gallery"
       "footer footer";
   }
-  .image {
-    width: 400px;
-    height: auto;
-    margin: auto;
-    margin-top: 3em;
-  }
-   h1 {
+  h1 {
     letter-spacing: 4px;
   }
   .main {
     text-align: center;
   }
+  .image {
+    width: 375px;
+    height: auto;
+    margin-top: 1em;
+  }
   .intro {
-    width: 400px;
-    margin: auto;
+    width: 375px;
+  }
+  ul {
+    padding: 1em 10em 0 10em;
   }
 }
