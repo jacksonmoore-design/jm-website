@@ -83,6 +83,8 @@ h1 {
 .main {
   color: #ff8c00;
   font-size: 40px;
+  text-align: left;
+  margin: 0;
 }
 .link {
   color: #138f63;
@@ -192,5 +194,8 @@ menu li a:after {
   .intro {
     width: 400px;
     margin: auto;
+  }
+  .main {
+    text-align: center;
   }
 }
