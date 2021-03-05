@@ -60,11 +60,12 @@ h1 {
     padding: 10px;
     margin: 4em 10em 4em 10em;
   }
-  .gallery {
+    .gallery {
     grid-area: gallery;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    justify-items: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 20px;
   }
   .image {
     display: grid;
