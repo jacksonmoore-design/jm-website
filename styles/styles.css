@@ -190,18 +190,19 @@ menu li a:after {
       "footer footer";
   }
   h1 {
-    letter-spacing: 4px;
+    letter-spacing: 2px;
   }
   .main {
     text-align: center;
   }
   .image {
-    width: 400px;
+    width: 300px;
     height: auto;
-    margin-top: 1em;
+    margin-top: 0;
   }
   .intro {
-    width: 400px;
-    margin: auto;
+    width: 300px;
   }
-}
+  .menu {
+    padding: 1em 10em 0 10em;
+  }
