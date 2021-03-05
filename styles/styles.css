@@ -1,13 +1,9 @@
 /* 
 INTRO 
-
-
 font-family: 'Open Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
-
 Color
 CSS HEX 
-
 --prussian-blue: #002c3dff;
 --blue-sapphire: #006177ff;
 --mint: #63b296ff;
@@ -20,13 +16,11 @@ body {
 }
 .container {
   display: grid;
-  grid-gap: 10px;
   grid-template-areas:
     "header header"
     "intro intro"
     "gallery gallery"
     "footer footer";
-  justify-content: center;
 }
 p {
   text-align: justify;
@@ -48,11 +42,7 @@ ul {
   justify-content: space-evenly;
   padding-left: 0;
 }
-.to_do {
-  display: block;
-  font-size: 18px;
-  list-style-type: disc;
-}
+
 .link {
   color: #138f63;
 }
@@ -67,11 +57,6 @@ header {
   font-size: 20px;
   line-height: 23px;
 }
-h1 {
-  margin: 5px;
-  font-weight: 700;
-  letter-spacing: 8px;
-}
 .menu {
   margin: 10px;
   padding-top: 1em;
@@ -80,30 +65,17 @@ h1 {
   color: #ff8c00;
   font-size: 40px;
   margin: 0;
-  text-align: left;
 }
 
-/*CLICKS*/
-a:hover {
-  color: #ff8c00;
-  transition: all 0.3s ease-out;
+h1 {
+  margin: 5px 0 5px 0;
+  font-weight: 700;
+  letter-spacing: 8px;
 }
-a:hover:after {
-  transition: all 0.3s ease-out;
-  transform: translateX(0%);
+h4 {
+  font-size: 18px;
+  margin: 0;
 }
-menu li a:after {
-  display: block;
-  content: "";
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 5px;
-  transform: translateX(-100%);
-  transition: all 0.3s ease-out;
-}
-
-/*DROPDOWN*/
 .dropdown {
   float: left;
   overflow: hidden;
@@ -137,7 +109,7 @@ menu li a:after {
 .intro {
   color: black;
   grid-area: intro;
-  /*text-align: left;*/
+  text-align: left;
   padding: 10px;
   margin: 4em 10em 4em 10em;
 }
@@ -150,11 +122,31 @@ img {
   grid-area: gallery;
   justify-content: center;
 }
+/*CLICKS*/
+a:hover {
+  color: #ff8c00;
+  transition: all 0.3s ease-out;
+}
+a:hover:after {
+  transition: all 0.3s ease-out;
+  transform: translateX(0%);
+}
+menu li a:after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  transform: translateX(-100%);
+  transition: all 0.3s ease-out;
+}
 
 /*FOOTER*/
 .footer {
   grid-area: footer;
   margin: 5em;
+  justify-content: space-evenly;
 }
 .fa-twitter {
   background: #002c3dff;
@@ -188,8 +180,6 @@ img {
       "intro intro"
       "gallery gallery"
       "footer footer";
-    max-width: 300px;
-    justify-content: center;
   }
   h1 {
     letter-spacing: 2px;
@@ -204,5 +194,8 @@ img {
   }
   .intro {
     width: 300px;
+    margin: 0;
+    justify-self: center;
   }
+}
 
