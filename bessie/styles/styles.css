@@ -31,6 +31,9 @@ body {
     "wrapper wrapper"
     "footer footer";
 }
+p {
+  text-align: justify;
+}
 h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
