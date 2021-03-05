@@ -78,6 +78,7 @@ h4 {
   margin: 0;
 }
 .menu {
+  margin: 10px;
   padding-top: 1em;
 }
 .dropdown {
@@ -201,6 +202,6 @@ menu li a:after {
   }
   .intro {
     width: 400px;
-    padding: 1em;
+    margin: auto;
   }
 }
