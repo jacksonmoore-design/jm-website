@@ -34,14 +34,6 @@ body {
   flex-shrink: wrap;
   margin-top: 4em;
 }
-h4 {
-  font-size: 18px;
-  margin: 0;
-}
-h3 {
-  margin: 4px;
-  font-size: 18px;
-}
 a {
   text-decoration: none;
   color: black;
@@ -49,7 +41,6 @@ a {
   transition: all 0.3s ease-out;
   outline: 0;
 }
-
 ul {
   display: flex;
   list-style: none;
