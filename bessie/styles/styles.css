@@ -70,6 +70,7 @@ header {
 .main {
   color: #ff8c00;
   font-size: 40px;
+  text-align: left;
 }
 h1 {
   margin: 5px;
@@ -224,5 +225,8 @@ menu li a:after {
   }
   .wrapper {
     margin: 0;
+  }
+  .main {
+    text-align: center;
   }
 }
