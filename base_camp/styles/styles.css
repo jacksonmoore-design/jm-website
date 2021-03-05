@@ -35,6 +35,9 @@ body {
 .image {
   margin-top: 5em;
 }
+p {
+  text-align: justify;
+}
 h4 {
   font-size: 18px;
   margin: 0;
