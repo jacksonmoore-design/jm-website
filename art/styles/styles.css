@@ -63,7 +63,7 @@ h1 {
   .gallery {
     grid-area: gallery;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     justify-items: center;
     grid-gap: 20px;
   }
@@ -225,12 +225,6 @@ a:hover {
       margin: auto;
     }
 }
-@media (min-width: 1000px) {
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 10px;
-    }
-  }
+
 
 
