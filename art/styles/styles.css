@@ -216,13 +216,14 @@ a:hover {
         "intro"
         "gallery"
         "footer";
+      gap: 5px;
     }
      .image {
-      width: 350px;
+      width: 300px;
       height: auto;
     }
     .intro {
-      width: 350px;
+      width: 300px;
       margin: auto;
     }
 }
