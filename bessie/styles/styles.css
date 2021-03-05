@@ -197,7 +197,11 @@ menu li a:after {
 .fa-wordpress {
   background-color: #006177ff;
 }
-.fa {
+.fa-wix {
+  background-color: black;
+}
+.fa,
+.fab {
   color: white;
   padding: 10px;
   text-align: center;
