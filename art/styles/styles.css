@@ -21,7 +21,7 @@ body {
   font-family: 'Open Sans', sans-serif;
     text-align: center;
   }
-  .container {
+ .container {
     display: grid;
     grid-gap: 10px;
     grid-template-areas:
@@ -30,13 +30,35 @@ body {
       "gallery gallery"
       "footer footer";
   }
+/*HEADER*/
+header {
+  font-family: 'Open Sans', sans-serif;
+  grid-area: header;
+  font-size: 20px;
+  line-height: 23px;
+}
+h1 {
+  margin: 5px 0 5px 0;
+  font-weight: 700;
+  letter-spacing: 8px;
+}
+.main {
+  color: #ff8c00;
+  font-size: 40px;
+  margin: 0;
+}
+.menu {
+  margin: 10px;
+  padding-top: 1em;
+}
+
+/*BODY*/
   .intro {
     color: black;
     grid-area: intro;
     text-align: left;
     padding: 10px;
     margin: 4em 10em 4em 10em;
-    
   }
   .gallery {
     grid-area: gallery;
@@ -44,33 +66,6 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     justify-items: center;
     grid-gap: 20px;
-  }
- 
-  .button {
-    position: relative;
-    background-color: rgb(19, 143, 99, 25%);
-    color: black;
-    border: none;
-    margin: 20px;
-    padding: 5px 10px 5px 10px;
-    line-height: 1;
-    overflow: hidden;
-    transition: all 0.3s ease-out;
-    font-family: 'open sans', sans-serif;
-    border-radius: 5px;
-  }
-  .button_art:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-  }
-  .button_art:hover {
-    background-color: rgb(19, 143, 99);
-    color: #FF8C00;
-    transform: translateY(-2px) scale(1.1);
   }
   .image {
     display: grid;
@@ -86,13 +81,13 @@ body {
   .menu {
     margin left: -1rem;
   }
+  a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    transition: all 0.3s ease-out;
+    outline: 0;
   }
-  h3 {
-    font-family: "Open Sans", sans-serif;
-    margin: 4px;
-    font-size: 18px;
-  }
-  
   ul {
     display: flex;
     list-style: none;
@@ -105,34 +100,8 @@ body {
   li {
     overflow: hidden;
   }
-  a {
-    text-decoration: none;
-    color: black;
-    position: relative;
-    transition: all 0.3s ease-out;
-    outline: 0;
-  }
-  
-/*HEADER*/
-header {
-  font-family: 'Open Sans', sans-serif;
-  grid-area: header;
-  font-size: 20px;
-  line-height: 23px;
-}
-h1 {
-  margin: 5px;
-  font-weight: 700;
-  letter-spacing: 8px;
-}
-.main {
-  color: #ff8c00;
-  font-size: 40px;
-}
-.menu {
-  margin: 10px;
-  padding-top: 1em;
-}
+
+/*DROPDOWN*/
 .dropdown {
   float: left;
   overflow: hidden;
@@ -161,6 +130,35 @@ h1 {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/*BUTTON*/
+  .button {
+    position: relative;
+    background-color: rgb(19, 143, 99, 25%);
+    color: black;
+    border: none;
+    margin: 20px;
+    padding: 5px 10px 5px 10px;
+    line-height: 1;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    font-family: 'open sans', sans-serif;
+    border-radius: 5px;
+  }
+  .button_art:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .button_art:hover {
+    background-color: rgb(19, 143, 99);
+    color: #FF8C00;
+    transform: translateY(-2px) scale(1.1);
+  }
+
 /*CLICKS*/
 a:hover {
     color: #FF8C00;
@@ -225,9 +223,6 @@ a:hover {
     .intro {
       width: 400px;
       margin: auto;
-    }
-    .gallery {
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
 }
 @media (min-width: 1000px) {
