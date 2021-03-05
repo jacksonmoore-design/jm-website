@@ -25,10 +25,10 @@ body {
     display: grid;
     grid-gap: 10px;
     grid-template-areas:
-      "header header"
-      "intro intro"
-      "gallery gallery"
-      "footer footer";
+      "header header header"
+      "intro intro intro"
+      "gallery gallery gallery"
+      "footer footer footer";
   }
 /*HEADER*/
 header {
@@ -65,7 +65,6 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     justify-items: center;
-    gap: 20px;
   }
   .image {
     display: grid;
