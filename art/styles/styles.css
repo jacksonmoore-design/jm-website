@@ -47,6 +47,7 @@ h1 {
   color: #ff8c00;
   font-size: 40px;
   margin: 0;
+  text-align: left;
 }
 .menu {
   margin: 10px;
@@ -227,6 +228,8 @@ a:hover {
       width: 300px;
       margin: auto;
     }
+    .main {
+      text-align: center;
 }
 
 
