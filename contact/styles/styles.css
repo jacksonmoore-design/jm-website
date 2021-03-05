@@ -32,6 +32,7 @@ body {
 .gallery {
   display: flex;
   flex-shrink: wrap;
+  margin-top: 4em;
 }
 fieldset {
   margin: 0;
@@ -184,13 +185,6 @@ h1 {
   display: block;
 }
 
-/*INTRO*/
-.intro {
-  grid-area: intro;
-  text-align: left;
-  padding: 10px;
-  margin: 4em 10em 4em 10em;
-}
 /*CLICKS*/
 a:hover {
   color: #ff8c00;
@@ -253,21 +247,18 @@ textarea:focus {
       "intro"
       "gallery"
       "footer";
-    justify-content: center;
   }
-  .intro {
-    width: 400px;
-    margin: auto;
-  }
+
   .gallery {
     display: block;
     width: 400px;
+    margin: 4em 1em 4em 1em;
   }
   .image {
     width: 400px;
     height: 400px;
   }
-}
+
 @media screen and (min-width: 600px) {
   fieldset {
     width: 40%;
