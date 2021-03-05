@@ -184,13 +184,15 @@ img {
 @media (max-width: 600px) {
   .container {
     grid-template-areas:
-      "header"
-      "intro"
-      "gallery"
-      "footer";
+      "header header"
+      "intro intro"
+      "gallery gallery"
+      "footer footer";
+    max-width: 300px;
+    justify-content: center;
   }
   h1 {
-    letter-spacing: 4px;
+    letter-spacing: 2px;
   }
   .main {
     text-align: center;
