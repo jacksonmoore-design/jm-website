@@ -44,6 +44,7 @@ ul {
   padding-bottom: 0px;
   justify-content: space-evenly;
   padding-left: 0;
+  margin: 0;
 }
 .to_do {
   display: block;
