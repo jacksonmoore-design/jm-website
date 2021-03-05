@@ -35,7 +35,9 @@ body {
 .image {
   margin-top: 5em;
 }
-
+p {
+  text-align: justify;
+}
 h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
