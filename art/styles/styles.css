@@ -210,27 +210,32 @@ a:hover {
   border-radius: 5px;
 }
   
-  /*MEDIA QUERIES*/
-  @media (max-width: 600px) {
-    .container {
-      grid-template-areas:
-        "header"
-        "intro"
-        "gallery"
-        "footer";
-      gap: 5px;
-    }
-     .image {
-      width: 300px;
-      height: auto;
-    }
-    .intro {
-      width: 300px;
-      margin: auto;
-    }
-    .main {
-      text-align: center;
-    }
+/*MEDIA QUERIES*/
+@media (max-width: 600px) {
+  .container {
+    grid-template-areas:
+      "header"
+      "intro"
+      "gallery"
+      "footer";
+  }
+  h1 {
+    letter-spacing: 2px;
+  }
+  .main {
+    text-align: center;
+  }
+  .image {
+    width: 300px;
+    height: auto;
+    margin-top: 0;
+  }
+  .intro {
+    width: 300px;
+    margin: 0;
+    justify-self: center;
+  }
+}
 }
 
 
