@@ -147,6 +147,7 @@ menu li a:after {
 .links {
   background-color: rgb(0, 44, 61, 15%);
   border-radius: 5px;
+  margin: 10px;
 }
 .image {
   display: grid;
@@ -277,7 +278,7 @@ menu li a:after {
     height: auto;
   }
   .links {
-    margin-top: 5px;
+    margin: 5px;
   }
   .intro {
     width: 300px;
