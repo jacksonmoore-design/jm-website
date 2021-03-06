@@ -228,13 +228,14 @@ a:hover {
   .image {
     width: 300px;
     height: auto;
-    margin-top: 5px;
   }
   .intro {
     width: 300px;
     margin: 0;
     justify-self: center;
   }
+  .art {
+    margin-top: 5px;
 }
 }
 
