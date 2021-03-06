@@ -250,7 +250,7 @@ textarea:focus {
   }
   textarea {
     min-height: 5em;
-    min-width: 80%;
+    min-width: 75%;
     margin-left: 5px;
   }
   input {
