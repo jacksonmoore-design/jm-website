@@ -214,6 +214,7 @@ menu li a:after {
   border-radius: 5px;
 }
 
+
 /*MEDIA QUERIES*/
 @media (max-width: 600px) {
   .container {
@@ -224,8 +225,9 @@ menu li a:after {
       "footer footer";
   }
   .intro {
-    width: 400px;
+    width: 300px;
     margin: auto;
+    justify-self: center;
   }
   .wrapper {
     margin: 0;
@@ -233,4 +235,8 @@ menu li a:after {
   .main {
     text-align: center;
   }
+  h1 {
+    letter-spacing: 2px;
+  }
+}
 }
