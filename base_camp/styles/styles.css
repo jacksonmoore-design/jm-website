@@ -203,16 +203,21 @@ menu li a:after {
       "gallery"
       "footer";
   }
-  .image {
-    width: 400px;
-    height: auto;
-  }
-  .intro {
-    width: 400px;
-    margin: auto;
+  h1 {
+    letter-spacing: 2px;
   }
   .main {
     text-align: center;
+  }
+  .image {
+    width: 300px;
+    height: auto;
+    margin-top: 0;
+  }
+  .intro {
+    width: 300px;
+    margin: 0;
+    justify-self: center;
   }
 }
 
