@@ -197,19 +197,22 @@ menu li a:after {
       "footer";
   }
   .image {
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 300px;
+    max-width: 300px;
   }
   .ig {
-    max-width: 400px;
-    max-height: 400px;
-    margin-left: 10px;
+    max-width: 300px;
+    max-height: 300px;
   }
   .intro {
-    width: 400px;
-    margin: auto;
+    width: 300px;
+    margin: 0;
+    justify-self: center;
   }
   .main {
     text-align: center;
+  }
+    h1 {
+    letter-spacing: 2px;
   }
 }
