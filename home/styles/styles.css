@@ -77,6 +77,13 @@ h1 {
   font-weight: 700;
   letter-spacing: 8px;
 }
+.home_views {
+   display: flex;
+  flex-flow: wrap;
+  gap: 10px;
+  padding: 5px;
+  justify-content: center;
+}
 .main {
   color: #ff8c00;
   font-size: 40px;
@@ -181,22 +188,26 @@ menu li a:after {
       "gallery"
       "footer";
   }
+   h1 {
+    letter-spacing: 2px;
+  }
   .image {
-    width: 400px;
+    width: 300px;
     height: auto;
   }
   .intro {
-    width: 400px;
-    margin: auto;
+    width: 300px;
+    margin: 0;
+    justify-self: center;
   }
   .main {
     text-align: center;
   }
 }
-@media (min-width: 1000px) {
+/*@media (min-width: 1000px) {
   .home_views {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-  }
+  }*/
 }
