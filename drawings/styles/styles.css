@@ -120,7 +120,13 @@ h1 {
     padding: 10px;
     margin: 4em 10em 0 10em;
   }
-
+.leaden {
+      display: flex;
+  flex-flow: wrap;
+  gap: 10px;
+  padding: 5px;
+  justify-content: center;
+}
 /*CLICKS*/
 a:hover {
   color: #FF8C00;
@@ -180,23 +186,27 @@ menu li a:after {
           "footer";
       }
       .image {
-        width: 400px;
+        width: 300px;
         height: auto;
       }
-      .intro {
-        width: 400px;
-        margin: auto;
+       .intro {
+         width: 300px;
+         margin: 0;
+        justify-self: center;
       }
       .main {
         text-align: center;
       }
+       h1 {
+    letter-spacing: 2px;
+  }
     }
-    @media (min-width: 1000px) {
+    /*@media (min-width: 1000px) {
         .leaden {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           grid-gap: 10px;
           align-items: center;
         }
-  }
+  }*/
 }
