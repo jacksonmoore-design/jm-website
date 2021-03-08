@@ -128,11 +128,24 @@ h1 {
 .flags {
   display: flex;
   flex-flow: wrap;
-  gap: 20px;
+  gap: 10px;
   padding: 5px;
   justify-content: center;
 }
-  
+ .locker {
+     display: flex;
+  flex-flow: wrap;
+  gap: 10px;
+  padding: 5px;
+  justify-content: center;
+}
+.table {
+    display: flex;
+  flex-flow: wrap;
+  gap: 10px;
+  padding: 5px;
+  justify-content: center;
+}
 /*CLICKS*/
 a:hover {
   color: #FF8C00;
@@ -203,7 +216,7 @@ menu li a:after {
   }
 }
 
-  @media (min-width: 1000px) {
+  /*@media (min-width: 1000px) {
     .locker {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -214,7 +227,7 @@ menu li a:after {
         grid-template-columns: repeat(2, 1fr);
        align-items: center;
     }
-    /*.flags {
+    .flags {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
        align-items: center;
