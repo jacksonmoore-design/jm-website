@@ -110,10 +110,19 @@ h4 {
   color: black;
   grid-area: intro;
   text-align: left;
+  justify-content: center;
   padding: 10px;
   margin: 4em 10em 4em 10em;
 }
 
+/*GALLERY
+img {
+  border-radius: 5px;
+}
+.gallery {
+  grid-area: gallery;
+  justify-content: center;
+}*/
 /*CLICKS*/
 a:hover {
   color: #ff8c00;
@@ -188,7 +197,7 @@ menu li a:after {
   padding: 0.5em 0 11em 0;
   background-color: #002c3d;
   text-align: left;
-  background-image: url(https://github.com/jacksonmoore-design/jm-website/blob/main/images/footer-flowers-2.png);
+  background-image: url(file:///Users/jacksonmoore/Desktop/website/intro/images/footer-flowers-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -253,4 +262,3 @@ menu li a:after {
     justify-self: center;
   }
 }
-
