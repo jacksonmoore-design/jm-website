@@ -233,7 +233,7 @@ menu li a:after {
     grid-template-areas:
       "header header"
       "intro intro"
-      "gallery gallery"
+      "sidebar sidebar"
       "footer footer";
   }
   h1 {
