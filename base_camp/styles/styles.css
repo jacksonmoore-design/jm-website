@@ -185,7 +185,6 @@ menu li a:after {
   background-position: center;
   background-size: cover;
    width: 100vw;
-  position: relative;
   left: 50%;
   right: 50%;
   margin-left: -50vw;
