@@ -16,6 +16,12 @@ CSS HEX
 body {
   font-family: "Open Sans", sans-serif;
   text-align: center;
+    width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 .container {
   display: grid;
