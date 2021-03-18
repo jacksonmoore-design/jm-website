@@ -151,24 +151,39 @@ menu li a:after {
 /*FOOTER*/
 .footer {
   grid-area: footer;
-  margin: 5em;
+  display: inline-flex;
+  margin: 0;
+  padding: 0.5em 0 11em 0;
+  background-color: #05241a;
+  text-align: left;
+  background-image: url("/images/footer-flowers-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+   width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
-.fa-twitter {
-  background: #002c3dff;
+.footer-menu {
+  display: block;
+  justify-content: space-evenly;
+}
+.fm {
+  color: white;
+  padding: 0 1em 0 1em;
 }
 .fa-instagram {
   background-color: #138f63;
+  margin: 5px;
 }
 .fa-linkedin {
   background-color: #eaa221;
+  margin: 5px;
 }
-.fa-wordpress {
-  background-color: #006177ff;
-}
-.fa-wix {
-  background-color: black;
-}
-.fa, .fab{
+.fa,
+.fab {
   color: white;
   padding: 10px;
   text-align: center;
