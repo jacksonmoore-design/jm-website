@@ -135,6 +135,7 @@ fieldset {
   text-align: left;
   height: 500px;
   width: 500px;
+  border-radius: 25px;
 }
 legend {
   font-size: 2em;
@@ -172,6 +173,7 @@ textarea:focus {
 }
 .image {
   height: 515.6px;
+  border-radius: 25px;
 }
 /*BUTTON*/
 .button {
@@ -203,7 +205,7 @@ textarea:focus {
 .footer {
   grid-area: footer;
   display: inline-flex;
-  margin: 0;
+  margin-top: 10em;
   padding: 0.5em 0 11em 0;
   background-color: #05241a;
   text-align: left;
