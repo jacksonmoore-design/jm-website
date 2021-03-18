@@ -28,12 +28,24 @@ body {
 }
 .gallery {
   grid-area: gallery;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(5, 36, 26, 17%);
+  justify-content: center;
+  padding: 5em 0 5em 0;
+  margin-top: 5em;
+  margin-bottom: 0;
 }
 .title {
   font-style: italic;
 }
 .image {
   margin-top: 5em;
+  height: 250px;
+  width: auto;
+  margin: 10px;
+  box-shadow: 2px 2px 5px grey;
 }
 .intro-text {
   text-align: justify;
