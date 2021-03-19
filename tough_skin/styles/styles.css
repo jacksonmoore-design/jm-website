@@ -216,7 +216,7 @@ menu li a:after {
 .footer {
   grid-area: footer;
   display: inline-flex;
-  margin: 0;
+  margin-top: 10em;
   padding: 0.5em 0 11em 0;
   background-color: #05241a;
   text-align: left;
@@ -224,11 +224,6 @@ menu li a:after {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-   width: 100vw;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
 }
 .footer-menu {
   display: block;
