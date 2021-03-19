@@ -160,13 +160,14 @@ h1 {
   top: 0;
   left: 0;
   justify-content: center;
+  align-items: center;
   opacity: 0;
   pointer-events: none;
 }
 .modal-outer img {
-  max-height: 75vh;
+  max-height: 85vh;
 
-  max-width: 75vw;
+  max-width: 85vw;
 }
 .modal-outer.open {
   opacity: 1;
@@ -213,7 +214,7 @@ menu li a:after {
 .footer {
   grid-area: footer;
   display: inline-flex;
-  margin: 1em;
+  margin: 0;
   padding: 0.5em 0 11em 0;
   background-color: #05241a;
   text-align: left;
