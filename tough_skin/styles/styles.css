@@ -190,7 +190,12 @@ h1 {
 .art {
   margin: 3em 1em;
 }
-
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  outline: none;
+}
 /*CLICKS*/
 a:hover {
   color: #ff8c00;
