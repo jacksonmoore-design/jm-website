@@ -168,9 +168,9 @@ h1 {
   pointer-events: none;
 }
 .modal-outer img {
-  max-height: 75vh;
+  max-height: 85vh;
 
-  max-width: 75vw;
+  max-width: 85vw;
 }
 .modal-outer.open {
   opacity: 1;
