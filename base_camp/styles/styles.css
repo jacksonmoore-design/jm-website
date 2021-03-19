@@ -216,7 +216,7 @@ menu li a:after {
 .footer {
   grid-area: footer;
   display: inline-flex;
-  margin: 1em;
+  margin: 0;
   padding: 0.5em 0 11em 0;
   background-color: #05241a;
   text-align: left;
