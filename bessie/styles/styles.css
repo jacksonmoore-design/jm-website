@@ -25,7 +25,6 @@ body {
 
 .container {
   display: grid;
-
   grid-template-areas:
     "header header"
     "intro intro"
@@ -42,6 +41,13 @@ h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
+a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  transition: all 0.3s ease-out;
+  outline: 0;
+}
 ul {
   display: flex;
   list-style: none;
@@ -54,31 +60,24 @@ ul {
 li {
   overflow: hidden;
 }
-a {
-  text-decoration: none;
-  color: black;
-  position: relative;
-  transition: all 0.3s ease-out;
-  outline: 0;
-}
+
 
 /*HEADER*/
 header {
-  font-family: "Open Sans", sans-serif;
   grid-area: header;
   font-size: 20px;
   line-height: 23px;
+}
+h1 {
+  margin: 5px;
+  font-weight: 700;
+  letter-spacing: 8px;
 }
 .main {
   color: #ff8c00;
   font-size: 40px;
   text-align: left;
   margin: 0;
-}
-h1 {
-  margin: 5px;
-  font-weight: 700;
-  letter-spacing: 8px;
 }
 .menu {
   margin: 10px;
@@ -114,7 +113,6 @@ h1 {
 }
 /*INTRO*/
 .intro {
-  color: black;
   grid-area: intro;
   text-align: left;
   padding: 10px;
@@ -123,6 +121,7 @@ h1 {
 .intro-text {
   text-align: justify;
 }
+/*GALLERY*/
 .gallery {
   grid-area: gallery;
   display: flex;
@@ -249,7 +248,7 @@ menu li a:after {
   padding: 0.5em 0 11em 0;
   background-color: #05241a;
   text-align: left;
-  background-image: url("file:///Users/jacksonmoore/Desktop/website/intro/images/footer-flowers-2.png");
+  background-image: url("/images/footer-flowers-2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
