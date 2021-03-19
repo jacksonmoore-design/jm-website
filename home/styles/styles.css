@@ -100,7 +100,7 @@ h1 {
   text-decoration: none;
   display: block;
   text-align: left;
-  background-color: rgb(19, 143, 99, 25%);
+  background-color: #eaa221;
   border-radius: 5px;
 }
 .dropdown-content a:hover {
