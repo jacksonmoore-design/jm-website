@@ -128,7 +128,6 @@ h1 {
   grid-area: gallery;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
   padding: 5em 0 5em 0;
   margin-bottom: 0;
@@ -137,6 +136,7 @@ h1 {
   padding: 0;
   text-align: left;
   color: rgb(46, 46, 46);
+  margin: 5px 0;
 }
 .image {
   height: 250px;
@@ -224,11 +224,6 @@ menu li a:after {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-   width: 100vw;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
 }
 .footer-menu {
   display: block;
