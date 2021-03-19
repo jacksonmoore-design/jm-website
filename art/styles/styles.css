@@ -168,6 +168,9 @@ h1 {
     color: #FF8C00;
     transform: translateY(-2px) scale(1.1);
   }
+  .img_button:hover {
+    background-color: none;
+  }
 
 /*CLICKS*/
 a:hover {
