@@ -173,8 +173,7 @@ h1 {
 .img_button {
   padding: 0:
   border: none;
-
- 
+  background: none; 
 }
 /*CLICKS*/
 a:hover {
