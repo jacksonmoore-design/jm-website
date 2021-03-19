@@ -78,7 +78,7 @@ h1 {
   .image {
     display: grid;
     border-radius: 5px;
-    height: 400px;
+    height: 300px;
   }
   .title {
     font-style: italic;
@@ -87,6 +87,7 @@ h1 {
     background-color: rgb(5, 36, 26, 15%);
     border-radius: 5px;
     margin: 10ps 5px 10px 5px;
+    display: grid;
   }
   .menu {
     margin left: -1rem;
@@ -171,7 +172,11 @@ h1 {
   .img_button:hover {
     background-color: none;
   }
-
+.img_button {
+  background-color: none;
+  border: none;
+  outline: none:
+}
 /*CLICKS*/
 a:hover {
     color: #FF8C00;
