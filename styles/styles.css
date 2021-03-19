@@ -163,6 +163,7 @@ menu li a:after {
 .links {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
+  display: grid;
 }
 .image {
   display: grid;
