@@ -84,9 +84,7 @@ h1 {
     font-style: italic;
   }
   .art {
-    background-color: rgb(5, 36, 26, 15%);
     border-radius: 5px;
-    margin: 10ps 5px 10px 5px;
     display: grid;
   }
   .menu {
@@ -170,12 +168,13 @@ h1 {
     transform: translateY(-2px) scale(1.1);
   }
   .img_button:hover {
-    background-color: none;
+    background: none;
   }
 .img_button {
-  background-color: none;
+  padding: 0:
   border: none;
-  outline: none:
+
+ 
 }
 /*CLICKS*/
 a:hover {
