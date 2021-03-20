@@ -169,13 +169,13 @@ h1 {
   }
   .img_button:hover {
     padding: 0:
-  border: none;
+  border: 0;
   background: none; 
   outline: none;
   }
 .img_button {
   padding: 0:
-  border: none;
+  border: 0;
   background: none; 
   outline: none;
 }
