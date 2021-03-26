@@ -203,16 +203,10 @@ menu li a:after {
   padding: 0.5em 0 11em 0;
   background-color: #05241a;
   text-align: left;
-  background-image: url("file:///Users/jacksonmoore/Desktop/website/intro/images/footer-flowers-2.png");
+  background-image: url("/art/images/footer-flowers-2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
 }
 
 .footer-icon {
