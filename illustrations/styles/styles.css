@@ -166,43 +166,23 @@ menu li a:after {
 }
 
 /*FOOTER*/
+.icon {
+  margin: 5px 10px 5px 5px;
+}
 .footer {
   grid-area: footer;
   display: inline-flex;
-  margin-top: 10em;
   padding: 0.5em 0 11em 0;
   background-color: #05241a;
   text-align: left;
-  background-image: url("/images/footer-flowers-2.png");
+  background-image: url("/art/images/footer-flowers-2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.footer-menu {
-  display: block;
-  justify-content: space-evenly;
-}
-.fm {
-  color: white;
-  padding: 0 1em 0 1em;
-}
 
-.fa-instagram {
-  background-color: #138f63;
-  margin: 5px;
-}
-.fa-linkedin {
-  background-color: #eaa221;
-  margin: 5px;
-}
-
-.fa,
-.fab {
-  color: white;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
+.footer-icon {
+  padding-left: 1em;
 }
 
 /*MEDIA QUIRIES*/
