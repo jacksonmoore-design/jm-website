@@ -74,6 +74,7 @@ h1 {
     flex-flow: wrap;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 5em;
   }
   .image {
     display: grid;
