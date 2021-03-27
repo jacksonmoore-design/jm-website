@@ -240,4 +240,6 @@ menu li a:after {
     margin: 0;
     justify-self: center;
   }
+ .links {
+   margin-top 2em;
 }
