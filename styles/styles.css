@@ -155,7 +155,7 @@ menu li a:after {
   background-size: cover;
   width: 100%;
   gap: 20px;
-  padding: 7em 0 7em 0;
+  padding: 5em 0 10em 0;
   color: black;
   justify-content: center;
 }
