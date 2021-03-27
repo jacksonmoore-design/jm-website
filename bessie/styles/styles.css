@@ -139,7 +139,7 @@ h1 {
   transition: all 0.3s ease-out;
 }
 .image {
-  height: 200px;
+  height: 150px;
   width: auto;
   border: rgb(46, 46, 46);
   transition: 0.5s ease;
@@ -243,6 +243,9 @@ menu li a:after {
 /*FOOTER*/
 .icon {
   margin: 5px 10px 5px 5px;
+}
+.f-icon:hover {
+  transform: translateY(-2px) scale(2);
 }
 .footer {
   grid-area: footer;
