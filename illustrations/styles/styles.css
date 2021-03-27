@@ -169,6 +169,9 @@ menu li a:after {
 .icon {
   margin: 5px 10px 5px 5px;
 }
+.f-icon:hover {
+  transform: translateY(-2px) scale(2);
+}
 .footer {
   grid-area: footer;
   display: inline-flex;
