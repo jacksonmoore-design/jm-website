@@ -166,7 +166,7 @@ menu li a:after {
 }
 .image {
   display: grid;
-  height: 300px;
+  height: 250px;
 }
 .button {
   position: relative;
