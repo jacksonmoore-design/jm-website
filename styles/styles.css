@@ -152,7 +152,6 @@ menu li a:after {
   grid-area: sidebar;
   display: flex;
   flex-flow: wrap;
-  background-color: #138f63;
   background-size: cover;
   width: 100%;
   gap: 20px;
@@ -161,18 +160,17 @@ menu li a:after {
   justify-content: center;
 }
 .links {
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
-  display: grid;
+    border-radius: 5px;
+    display: grid;
+    border: rgb(19, 143, 99) solid 10px;
 }
 .image {
   display: grid;
-  border-radius: 5px;
   height: 300px;
 }
 .button {
   position: relative;
-  background-color: rgb(19, 143, 99, 25%);
+  background-color: rgb(4, 37, 26, 25%);
   color: black;
   border: none;
   margin: 20px;
