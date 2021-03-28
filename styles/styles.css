@@ -155,7 +155,7 @@ menu li a:after {
   background-size: cover;
   width: 100%;
   gap: 20px;
-  padding: 5em 0 10em 0;
+  padding: 5em 0 5em 0;
   color: black;
   justify-content: center;
 }
@@ -163,6 +163,7 @@ menu li a:after {
     border-radius: 5px;
     display: grid;
     border: rgb(19, 143, 99) solid 10px;
+  margin-bottom: 20px;
 }
 .image {
   display: grid;
